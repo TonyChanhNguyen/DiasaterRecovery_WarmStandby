@@ -12,21 +12,21 @@
     <title>EC2 :: Warm Standby</title>
 
     
-    <link href="/css/nucleus.css?1705594951" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1705594951" rel="stylesheet">
-    <link href="/css/hybrid.css?1705594951" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1705594951" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1705594951" rel="stylesheet">
-    <link href="/css/auto-complete.css?1705594951" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1705594951" rel="stylesheet">
-    <link href="/css/theme.css?1705594951" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1705594951" rel="stylesheet">
+    <link href="/css/nucleus.css?1708509637" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708509637" rel="stylesheet">
+    <link href="/css/hybrid.css?1708509637" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708509637" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708509637" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708509637" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708509637" rel="stylesheet">
+    <link href="/css/theme.css?1708509637" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708509637" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1705594951" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1708509637" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1705594951"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708509637"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1705594951"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1705594951"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708509637"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708509637"></script>
 <script type="text/javascript">
     
         var baseurl = "\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1705594951"></script>
+<script type="text/javascript" src="/js/search.js?1708509637"></script>
 
     
   </div>
@@ -595,37 +595,37 @@
 </li>
 <li>
 <p>Sau đó, nhấn <strong>Update</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.1ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.1ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Tại trang <strong>Update stack</strong>, nhấn <strong>Next</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.2ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.2ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Tại trang <strong>Specify stack details</strong>, chọn <strong>yes</strong> tại <strong>IsPromote</strong>.</p>
 </li>
 <li>
 <p>Sau đó, nhấn <strong>Next</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.3ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.3ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Tại trang <strong>Configure stack options</strong>, cuộn xuống và nhấn <strong>Next</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.4ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.4ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Tại trang <strong>Review warm-secondary</strong>, cuộn xuống cuối trang. Tích chọn ô <strong>I acknowledge that AWS CloudFormation might create IAM resources with custom names.</strong></p>
 </li>
 <li>
 <p>Sau đó, nhấn <strong>Submit</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.5ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.5ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Stack của bạn đang được cập nhật. Sẽ mất khoảng 5 phút để hoàn tất.
-<img src="/images/3.failover/3.2.ec2/3.2.6ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.6ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Sau 5 phút, stack của bạn sẽ được cập nhật thành công.
-<img src="/images/3.failover/3.2.ec2/3.2.7ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.7ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 </ol>
 <h3 id="auto-scaling-group-asg">Auto Scaling Group (ASG)</h3>
@@ -641,15 +641,15 @@ Chúng ta bây giờ có thể tự tin rằng khi quá trình phục hồi, vù
 </li>
 <li>
 <p>Chọn ASG tên <strong>warm-secondary-WebServerGroup-XXXXXXXXXXXX</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.8ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.8ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Nhấn thanh chuyển hướng <strong>Activity</strong>.
-<img src="/images/3.failover/3.2.ec2/3.2.9ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.9ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 <li>
 <p>Tại tính năng <strong>Activity history</strong>, kiểm tra thấy rằng có một hoạt động mở rộng quy mô sô lượng máy chủ EC2 của bạn từ 1 lên 2.
-<img src="/images/3.failover/3.2.ec2/3.2.10ec2.png?width=90pc" alt="Failover EC2"></p>
+<img src="../../../images/3.failover/3.2.ec2/3.2.10ec2.png?width=90pc" alt="Failover EC2"></p>
 </li>
 </ol>
 
@@ -900,19 +900,19 @@ Chúng ta bây giờ có thể tự tin rằng khi quá trình phục hồi, vù
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1705594951"></script>
-    <script src="/js/perfect-scrollbar.min.js?1705594951"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1705594951"></script>
-    <script src="/js/jquery.sticky.js?1705594951"></script>
-    <script src="/js/featherlight.min.js?1705594951"></script>
-    <script src="/js/highlight.pack.js?1705594951"></script>
+    <script src="/js/clipboard.min.js?1708509637"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708509637"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708509637"></script>
+    <script src="/js/jquery.sticky.js?1708509637"></script>
+    <script src="/js/featherlight.min.js?1708509637"></script>
+    <script src="/js/highlight.pack.js?1708509637"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1705594951"></script>
-    <script src="/js/learn.js?1705594951"></script>
-    <script src="/js/hugo-learn.js?1705594951"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708509637"></script>
+    <script src="/js/learn.js?1708509637"></script>
+    <script src="/js/hugo-learn.js?1708509637"></script>
 
-    <link href="/mermaid/mermaid.css?1705594951" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1705594951"></script>
+    <link href="/mermaid/mermaid.css?1708509637" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1708509637"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

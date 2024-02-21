@@ -19,21 +19,21 @@ Với một CSDL toàn cầu Aurora, có 2 hướng khác nhau để phục hồ
 
 1. Đi đến [RDS](https://us-west-2.console.aws.amazon.com/rds/home?region=us-west-2#databases:) tại khu vực **Oregon (us-west-2)**.
 2. Kiểm tra CSDL Global **warm-global**. Chú ý bạn có một cụm chính **warm-primary** trong **us-east-1** mà có **Writer instance** và cụm phụ **warm-secondary** trong **us-west-1** mà có **Reader instance**.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.1aurora.png?width=90pc)
+![Failover Aurora](../../../images/3.failover/3.1.aurora/3.1.1aurora.png?width=90pc)
 
 
 3. Chọn cụm **warm-global**.
 4. Nhấn **Actions**.
 5. Chọn **Switch over or fail over global database** bên dưới **Actions**.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.2aurora.png?width=90pc)
+![Failover Aurora](../../../images/3.failover/3.1.aurora/3.1.2aurora.png?width=90pc)
 
 6. Chọn **Switchover**.
 7. Tại trang **New primary cluster**, chọn **warm-secondary**.
 8. Sau đó, nhấn **Confirm**.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.3aurora.png?width=90pc)
+![Failover Aurora](../../../images/3.failover/3.1.aurora/3.1.3aurora.png?width=90pc)
 
 9. Sẽ mất khoảng vài phút để nâng cấp CSDL thứ cấp thành CSDL chính.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.4aurora.png?width=90pc)
+![Failover Aurora](../../../images/3.failover/3.1.aurora/3.1.4aurora.png?width=90pc)
 
 11. Khi chuyển đổi hoàn tất, chú ý sự thay đổi. **Primary cluster** hiện tại ở **us-west-2** mà có **Writer instance** và **Secondary Cluster** hiện tại ở **us-east-1** mà có **Reader instance**. 
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.5aurora.png?width=90pc)
+![Failover Aurora](../../../images/3.failover/3.1.aurora/3.1.5aurora.png?width=90pc)

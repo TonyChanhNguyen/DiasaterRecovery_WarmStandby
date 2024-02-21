@@ -20,21 +20,21 @@ For this workshop we will be doing a **Switchover**.
 
 1. Go to [RDS](https://us-west-2.console.aws.amazon.com/rds/home?region=us-west-2#databases:) in **Oregon (us-west-2)** region.
 2. Look at the **warm-global** Global database. Notice how you have **warm-primary** a Primary cluster in **us-east-1** which has your **Writer instance** and **warm-secondary** a Secondary cluster in **us-west-1** which has your **Reader instance**.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.1aurora.png?width=90pc)
+![Failover Aurora](../../images/3.failover/3.1.aurora/3.1.1aurora.png?width=90pc)
 
 
 3. Select **warm-global** cluster.
 4. Click on **Actions**.
 5. Choose **Switch over or fail over global database** under **Actions**.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.2aurora.png?width=90pc)
+![Failover Aurora](../../images/3.failover/3.1.aurora/3.1.2aurora.png?width=90pc)
 
 6. Choose **Switchover**.
 7. At **New primary cluster** feature, select **warm-secondary**.
 8. Then, click on **Confirm**.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.3aurora.png?width=90pc)
+![Failover Aurora](../../images/3.failover/3.1.aurora/3.1.3aurora.png?width=90pc)
 
 9. It will take you several minutes to promote Secondary database to Primary.
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.4aurora.png?width=90pc)
+![Failover Aurora](../../images/3.failover/3.1.aurora/3.1.4aurora.png?width=90pc)
 
 11. When the switchover is complete, notice the changes. The **Primary cluster** is now in **us-west-2** which has our **Writer instance** and the **Secondary Cluster** is now in **us-east-1** which has our **Reader instance**. 
-![Failover Aurora](/images/3.failover/3.1.aurora/3.1.5aurora.png?width=90pc)
+![Failover Aurora](../../images/3.failover/3.1.aurora/3.1.5aurora.png?width=90pc)
