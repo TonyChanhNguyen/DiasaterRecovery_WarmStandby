@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/vi/4.failover/4.1.aurora/</loc>
+    <loc>/vi/3.failover/3.1.aurora/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4.failover/4.1.aurora/"
+                href="/3.failover/3.1.aurora/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4.failover/4.1.aurora/"
+                href="/vi/3.failover/3.1.aurora/"
                 />
   </url><url>
     <loc>/vi/1.introduce/</loc>
@@ -26,18 +26,6 @@
                 href="/vi/1.introduce/"
                 />
   </url><url>
-    <loc>/vi/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/"
-                />
-  </url><url>
     <loc>/vi/2.preparation/2.1.s3access/</loc>
     <xhtml:link
                 rel="alternate"
@@ -48,6 +36,18 @@
                 rel="alternate"
                 hreflang="vi"
                 href="/vi/2.preparation/2.1.s3access/"
+                />
+  </url><url>
+    <loc>/vi/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/"
                 />
   </url><url>
     <loc>/vi/2.preparation/</loc>
@@ -62,16 +62,16 @@
                 href="/vi/2.preparation/"
                 />
   </url><url>
-    <loc>/vi/4.failover/4.2.ec2/</loc>
+    <loc>/vi/3.failover/3.2.ec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4.failover/4.2.ec2/"
+                href="/3.failover/3.2.ec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4.failover/4.2.ec2/"
+                href="/vi/3.failover/3.2.ec2/"
                 />
   </url><url>
     <loc>/vi/2.preparation/2.2.primaryregion/</loc>
@@ -86,28 +86,28 @@
                 href="/vi/2.preparation/2.2.primaryregion/"
                 />
   </url><url>
-    <loc>/vi/3.preparesecondaryregion/</loc>
+    <loc>/vi/3.failover/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3.preparesecondaryregion/"
+                href="/3.failover/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3.preparesecondaryregion/"
+                href="/vi/3.failover/"
                 />
   </url><url>
-    <loc>/vi/4.failover/4.3.verifyfailover/</loc>
+    <loc>/vi/3.failover/3.3.verifyfailover/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4.failover/4.3.verifyfailover/"
+                href="/3.failover/3.3.verifyfailover/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4.failover/4.3.verifyfailover/"
+                href="/vi/3.failover/3.3.verifyfailover/"
                 />
   </url><url>
     <loc>/vi/2.preparation/2.3.secondaryregion/</loc>
@@ -122,16 +122,16 @@
                 href="/vi/2.preparation/2.3.secondaryregion/"
                 />
   </url><url>
-    <loc>/vi/4.failover/</loc>
+    <loc>/vi/4.cleanupresources/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4.failover/"
+                href="/4.cleanupresources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4.failover/"
+                href="/vi/4.cleanupresources/"
                 />
   </url><url>
     <loc>/vi/2.preparation/2.4.verifywebsite/</loc>
@@ -144,18 +144,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="/vi/2.preparation/2.4.verifywebsite/"
-                />
-  </url><url>
-    <loc>/vi/5.cleanupresources/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/5.cleanupresources/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/5.cleanupresources/"
                 />
   </url><url>
     <loc>/vi/categories/</loc>
