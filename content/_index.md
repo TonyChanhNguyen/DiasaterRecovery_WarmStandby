@@ -15,4 +15,4 @@ This module takes advantage of Auto Scaling Groups (ASG) which will allow us to 
 
 CloudFormation will be used to configure the infrastructure and deploy the application. Provisioning your infrastructure with infrastructure as code (IaC) methodologies is a best practice. CloudFormation is an easy way to speed up cloud provisioning with infrastructure as code.
 
-![Warm Standby](images/warmstandby.png?width=60pc)
+![Warm Standby](/images/warmstandby.png?width=60pc)
